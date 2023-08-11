@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins);
+*{
+    font-family: poppins;   
+}
+body{
+    height: 100vh;
+    display: flex;/*biar bisa gerak*/
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f8fd;
+}
+body .form-login{
+    background-color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    border-radius: 16px;
+}
+body .form-login h3{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+body .form-login input {
+    margin-bottom: 10px;
+    width: 400px;
+    height: 40px;
+    padding-left: 20px;
+    background-color: #e5e9f2;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+}
+body .form-login p{
+    text-align: right;
+    margin-top: -8px;
+    margin-bottom: 35px;
+    
+}
+body .form-login p .link-lupa-password{
+    text-decoration: none;
+    color: #999aa4;
+    font-size: 16px;
+    font-weight: 400;
+}
+body .form-login p .link-lupa-password:hover{
+    color: blue;
+}
+body .form-login .btn-login{
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    background-color: blue;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+body .form-login a .btn-regis{
+    margin-top: 18px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #e5e9f2;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+body .form-login hr{
+    border-top: 2px solid #e5e9f2;
+    margin-top: 18px;
+}
+body .form-login a .btn-google{
+    margin-top: 18px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #36344a;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+body .form-login a .btn-google img{
+    width: 20px;
+    margin: -19px 0px -7px -20px;
+}
+
